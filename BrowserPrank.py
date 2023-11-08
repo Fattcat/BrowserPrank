@@ -5,9 +5,9 @@ import random
 import os
 import keyboard
 
-#              ! DISCLAIMER !
-#       ! This code is ONLY FOR FUN !
-# DONT USE IT ON ANY PC WITHOUT PERMISSION
+#                ! DISCLAIMER !
+#         ! This code is ONLY FOR FUN !
+# ! DONT USE IT ON ANY PC WITHOUT PERMISSION !
 
 os.system("cls")
 
