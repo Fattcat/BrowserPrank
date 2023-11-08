@@ -10,7 +10,6 @@ import keyboard
 # ! DONT USE IT ON ANY PC WITHOUT PERMISSION !
 
 os.system("cls")
-
 PressIt = pyautogui.hotkey("win", "d")
 
 KeyList = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j",
@@ -36,7 +35,6 @@ while True:
 
     CLICKER = True
 
-#    UNCOMMENT down bellow code IF you WANT TO CLICK MOUSE 1 every 2 seconds for make more annoying code for FUN :D    
 #    if CLICKER:
 #        time.sleep(2)
 #        pyautogui.click()
