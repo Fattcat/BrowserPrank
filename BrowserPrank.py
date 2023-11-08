@@ -3,21 +3,13 @@ import pyautogui
 import time
 import random
 import os
-import platform
 import keyboard
 
+#              ! DISCLAIMER !
+#       ! This code is ONLY FOR FUN !
+# DONT USE IT ON ANY PC WITHOUT PERMISSION
+
 os.system("cls")
-#checkOS = platform.system()
-#print("OS je :",checkOS)
-#
-#TimeList = [1,2,3,4,5,6,7,8,9]
-#PickTime = random.choice(TimeList)
-#
-#while True:
-#    timer = 1
-#    time.sleep(random.choice(TimeList))
-#    print("Nahodny cas bol : ",PickTime)
-#    webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
 
 PressIt = pyautogui.hotkey("win", "d")
 
@@ -36,10 +28,15 @@ while True:
             print(PressIt)
             print("stlačené !", Klavesa)
             webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            pyautogui.click()
         else:
-            pass
-            
+            pass            
     if keyboard.is_pressed("esc"):
         print("Stlacene ESC!\nExitting and Leaving ...")
         exit()
+
+    CLICKER = True
+
+#    UNCOMMENT down bellow code IF you WANT TO CLICK MOUSE 1 every 2 seconds for make more annoying code for FUN :D    
+#    if CLICKER:
+#        time.sleep(2)
+#        pyautogui.click()
